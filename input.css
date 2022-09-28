@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
+
 /* npx tailwindcss -i ./input.css -o ./dist/output.css --watch */
